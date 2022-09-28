@@ -12,6 +12,9 @@ const Myinfo = () => {
             </div>
             <Break></Break>
             <Active></Active>
+            <div className="text-center">
+            <button className='btn btn-primary text-center'>Activity Completed</button>
+            </div>
         </div>
     );
 };

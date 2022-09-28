@@ -3,60 +3,36 @@
         "id": "1",
         "image": "https://cdn.pixabay.com/photo/2015/01/26/22/40/child-613199_960_720.jpg",
         "title": "ULTRABOOST 22 SHOES",
-        "seller": "Addidas",
-        "price": 420,
-        "stock": 20,
-        "ratings": 4,
-        "ratingsCount": 3725
+        "time": 40
     },
     {
         "id": "2",
         "image": "https://cdn.pixabay.com/photo/2015/04/15/21/06/cricket-724617_960_720.jpg",
         "title": "ULTRABOOST 22 SHOES",
-        "seller": "Addidas",
-        "price": 420,
-        "stock": 20,
-        "ratings": 4,
-        "ratingsCount": 3725
+        "time": 50
     },
     {
         "id": "3",
         "image": "https://images.unsplash.com/photo-1565843248736-8c41e6db117b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "title": "ULTRABOOST 22 SHOES",
-        "seller": "Addidas",
-        "price": 420,
-        "stock": 20,
-        "ratings": 4,
-        "ratingsCount": 3725
+        "time": 30
     },
     {
         "id": "4",
         "image": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "title": "ULTRABOOST 22 SHOES",
-        "seller": "Addidas",
-        "price": 420,
-        "stock": 20,
-        "ratings": 4,
-        "ratingsCount": 3725
+        "time": 20
     },
     {
         "id": "5",
         "image": "https://images.unsplash.com/photo-1486218119243-13883505764c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
         "title": "ULTRABOOST 22 SHOES",
-        "seller": "Addidas",
-        "price": 420,
-        "stock": 20,
-        "ratings": 4,
-        "ratingsCount": 3725
+        "time": 60
     },
     {
         "id": "6",
         "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "title": "ULTRABOOST 22 SHOES",
-        "seller": "Addidas",
-        "price": 420,
-        "stock": 20,
-        "ratings": 4,
-        "ratingsCount": 3725
+        "time": 10
     }
 ]
