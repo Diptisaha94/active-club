@@ -3,7 +3,7 @@ import './Myinfo.css';
 import pic from '../images/IMG_0806.JPG';
 import Break from './break';
 import Active from './active';
-const Myinfo = () => {
+const Myinfo = (props) => {
     return (
         <div className='info-container'>
             <div className="my-info">
@@ -11,7 +11,7 @@ const Myinfo = () => {
                 <h3>Dipti Rani</h3>
             </div>
             <Break></Break>
-            <Active></Active>
+            <Active menu={props.menu}></Active>
             <div className="text-center">
             <button className='btn btn-primary text-center'>Activity Completed</button>
             </div>
