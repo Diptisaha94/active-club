@@ -1,9 +1,10 @@
 import React from 'react';
+import Myinfo from './Myinfo';
 
 const Menu = () => {
     return (
         <div>
-            
+           <Myinfo></Myinfo> 
         </div>
     );
 };

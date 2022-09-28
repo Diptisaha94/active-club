@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from './card';
-
+import Menu from './Menu';
+import './main.css';
 const Main = () => {
   const  [cards,setCard]=useState([]);
 useEffect(()=>{
@@ -18,8 +19,8 @@ useEffect(()=>{
                 }
                 </div>
             </div>
-            <div className="col-lg-4">
-                <h3>lon mkod</h3>
+            <div className="col-lg-4 menu">
+                <Menu></Menu>
             </div>
         </div>
     );
