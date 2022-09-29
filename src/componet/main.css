@@ -4,6 +4,8 @@
 .menu{
     background-color: rgba(248, 137, 117, 0.473);
     padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .person-icon{
     font-size: 20px;

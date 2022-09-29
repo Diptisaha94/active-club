@@ -13,6 +13,20 @@ const Myinfo = ({menu}) => {
                 <img src={pic} alt=""/>
                 <h3>Dipti Rani</h3>
             </div>
+            <div className="my-details d-flex align-items-center justify-content-between bg-light px-4 mt-4 rounded py-2">
+                <div className="">
+                    <h4>50<span>kg</span></h4>
+                    <h4>Weight</h4>
+                </div>
+                <div className="">
+                    <h4>5.2</h4>
+                    <h4>Height</h4>
+                </div>
+                <div className="">
+                    <h4>25<span>yrs</span></h4>
+                    <h4>Age</h4>
+                </div>
+            </div>
             <Break></Break>
             <Active menu={menu}></Active>
             <div className="text-center">

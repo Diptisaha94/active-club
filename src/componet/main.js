@@ -18,7 +18,7 @@ const handleToclick =(card)=>{
 }
 //console.log(cards);
     return (
-        <div className='main-container row m-0'>
+        <div className='main-container row gx-0'>
             <div className="col-lg-8 col-md-12">
                 <div className=" bg-info pb-4 px-3 pt-5 d-flex align-items-center">
                     <FontAwesomeIcon icon={faPersonWalking} size="2x"></FontAwesomeIcon>
