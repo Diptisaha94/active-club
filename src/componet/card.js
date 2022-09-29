@@ -1,5 +1,5 @@
 import React from 'react';
-import './card.css';
+
 
 const Card = ({card,handleToclick}) => {
     return (
