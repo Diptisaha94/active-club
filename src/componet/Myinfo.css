@@ -1,5 +1,6 @@
 .my-info{
     display: flex;
+    align-items: center;
 }
 .my-info img{
 width: 100px;

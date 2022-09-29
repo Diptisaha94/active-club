@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Card from './card';
 import Menu from './Menu';
 import './main.css';
-import './card.css';
 const Main = () => {
   const  [cards,setCard]=useState([]);
   const [menu,setMenu]=useState([]);

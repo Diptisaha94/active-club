@@ -1,14 +1,24 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './break.css';
 const Break = () => {
     const  [breaks,setBreak]=useState(0);
+    const [times,setTime]=useState(0);
+    useEffect(()=>{
+        const getTime = localStorage.getItem('Break');
+        if(getTime){
+            setTime(getTime);
+        }else{
+            localStorage.setItem('Break',breaks);
+        }
+    },[breaks])
     const breakTime=(e)=>{
         const newTime = e.target.innerText;
         setBreak(newTime);
+        localStorage.setItem('Break',newTime);
     }
 
     return (
-        <div>
+        <div className='mt-5'>
             <h4>Add A Break</h4>
             <div className="d-flex flex-wrap break-time">
                 <p onClick={breakTime}>10m</p>
@@ -19,7 +29,7 @@ const Break = () => {
             </div>
             <div className="bg-light d-flex justify-content-between align-items-center mb-4 rounded">
                 <p className='active-time'>Break Time</p>
-                <p className='time pe-3'>{breaks}</p>
+                <p className='time pe-3'>{times}</p>
             </div>
         </div>
     );

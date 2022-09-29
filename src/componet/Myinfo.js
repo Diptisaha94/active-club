@@ -16,7 +16,7 @@ const Myinfo = (props) => {
             <Break></Break>
             <Active menu={props.menu}></Active>
             <div className="text-center">
-            <button onClick={notify} className='btn btn-primary text-center'>Activity Completed</button>
+            <button onClick={notify} className='btn btn-info text-center'>Activity Completed</button>
             <ToastContainer />
             </div>
         </div>

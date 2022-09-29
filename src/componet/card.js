@@ -10,7 +10,7 @@ const Card = ({card,handleToclick}) => {
     <h5 className="card-title">{card.title}</h5>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <h6>Time Required: {card.time}m</h6>
-    <button onClick={()=>handleToclick(card)} className="btn btn-primary">Add to list</button>
+    <button onClick={()=>handleToclick(card)} className="btn btn-info">Add to list</button>
   </div>
 </div> 
         </div>
