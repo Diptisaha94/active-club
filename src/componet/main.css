@@ -1,9 +1,12 @@
 .card-width{
-    width: 18rem;
+    width: 17rem;
 }
 .menu{
     background-color: rgba(248, 137, 117, 0.473);
 }
 .person-icon{
     font-size: 20px;
+}
+.img-height{
+    height: 240px;
 }

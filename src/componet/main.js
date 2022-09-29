@@ -21,11 +21,11 @@ const handleToclick =(card)=>{
     return (
         <div className='main-container row m-0'>
             <div className="col-lg-8">
-                <div className=" bg-info py-4 px-4 d-flex align-items-center">
+                <div className=" bg-info py-4 px-2 d-flex align-items-center">
                     <FontAwesomeIcon icon={faPersonWalking} size="2x"></FontAwesomeIcon>
                 <h2 className='ms-3'>Today Activity</h2>
                 </div>
-                <div className="card-container">
+                <div className="card-container row">
                 {
                     cards.map(card=><Card handleToclick={handleToclick} card={card} key={card.id}></Card>)
                 }

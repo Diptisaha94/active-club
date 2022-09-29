@@ -10,7 +10,7 @@ const Break = () => {
     return (
         <div>
             <h4>Add A Break</h4>
-            <div className="d-flex break-time">
+            <div className="d-flex flex-wrap break-time">
                 <p onClick={breakTime}>10m</p>
                 <p onClick={breakTime}>20m</p>
                 <p onClick={breakTime}>30m</p>

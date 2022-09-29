@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './main.css';
 
 const Card = ({card,handleToclick}) => {
     return (
-        <div>
+        <div className='col-lg-4 col-md-4 col-sm-6'>
            <div className="card card-width">
   <img src={card.image} className="card-img-top img-height" alt=""/>
   <div className="card-body">
