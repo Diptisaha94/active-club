@@ -13,10 +13,6 @@ const Active = (props) => {
                 <p className='active-time'>Active Time</p>
                 <p className='time pe-3'>{activeTime}m</p>
             </div>
-            <div className="bg-light d-flex justify-content-between align-items-center mb-4 rounded">
-                <p className='active-time'>Break Time</p>
-                <p className='time pe-3'>200m</p>
-            </div>
         </div>
     );
 };
