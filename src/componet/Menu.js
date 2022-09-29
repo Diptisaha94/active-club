@@ -1,10 +1,10 @@
 import React from 'react';
 import Myinfo from './Myinfo';
 
-const Menu = (props) => {
+const Menu = ({menu}) => {
     return (
         <div>
-           <Myinfo menu={props.menu}></Myinfo> 
+           <Myinfo menu={menu}></Myinfo> 
         </div>
     );
 };

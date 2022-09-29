@@ -1,9 +1,9 @@
 import React from 'react';
 import './active.css';
-const Active = (props) => {
-    console.log(props.menu);
+const Active = ({menu}) => {
+    //console.log(props.menu);
     let activeTime = 0;
-    for (const active of props.menu) {
+    for (const active of menu) {
         activeTime =activeTime+ active.time;
     }
     return (

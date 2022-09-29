@@ -5,7 +5,7 @@ import Break from './break';
 import Active from './active';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-const Myinfo = (props) => {
+const Myinfo = ({menu}) => {
     const notify = () => toast("Wow Your Activity Completed!");
     return (
         <div className='info-container'>
@@ -14,7 +14,7 @@ const Myinfo = (props) => {
                 <h3>Dipti Rani</h3>
             </div>
             <Break></Break>
-            <Active menu={props.menu}></Active>
+            <Active menu={menu}></Active>
             <div className="text-center">
             <button onClick={notify} className='btn btn-info text-center'>Activity Completed</button>
             <ToastContainer />
